@@ -1,0 +1,4 @@
+Relative position of camera: XYZ: 2.86232, 1.08033, -1.15788
+Relative orientation of camera: RPY: 1.45503, -0.0515982, -1.4144
+Distance to florr plane: 0.773821
+Floor Plane Orientation_x, Orientation_y, Orientation_z: -0.0542034 -0.00623754 0.99851
