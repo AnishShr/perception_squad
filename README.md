@@ -4,13 +4,12 @@ Github documentation to run the node and bag file
 
 ## Creating directories
 
-To save the output files and bags, first few directories need to be created (appologies for this strenuous request).   
+To save the output files and bags, first a directory need to be created (appologies for this strenuous request).   
 
-Inside the `/perception_squad/src` folder, create 2 directories:
-- `output` to store output files (.PLY files and .txt file)
+Inside the `/perception_squad/src` folder, create a directorY:
 - `bags` where the test_data folder needs to be copied
 
-After creating the directories, copy the `test_data` folder from https://siaroboticsolutions.sharepoint.com/:u:/s/Robot/EZfyh6hzdhhPkoi7R8yrN4IBlX5oab_xKMWEc5FhGorWGA?email=sth.anish%40hotmail.com&e=4%3a5PDsP6&at=9   
+After creating the directory, copy the `test_data` folder (or extract)from https://siaroboticsolutions.sharepoint.com/:u:/s/Robot/EZfyh6hzdhhPkoi7R8yrN4IBlX5oab_xKMWEc5FhGorWGA?email=sth.anish%40hotmail.com&e=4%3a5PDsP6&at=9   
 
 Once this is done we are almost ready to get started.   
 
