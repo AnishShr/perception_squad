@@ -263,7 +263,7 @@ int main(int argc, char** argv)
         {
             file << "Relative position of camera: XYZ: " << x << ", " << y << ", " << z << std::endl;
             file << "Relative orientation of camera: RPY: " << roll << ", " << pitch << ", " << yaw << std::endl;
-            file << "Distance to florr plane: " << lidar_coefficients->values[3] << std::endl;
+            file << "Distance to florr plane: " << -lidar_coefficients->values[3] << std::endl;
             file << "Floor Plane Orientation_x, Orientation_y, Orientation_z: " << lidar_planeNormal.x() 
                     << " " << lidar_planeNormal.y() << " " << lidar_planeNormal.z() << std::endl; 
             file.close();
