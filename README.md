@@ -6,7 +6,7 @@ Github documentation to run the node and bag file
 
 To save the output files and bags, first a directory need to be created (appologies for this strenuous request).   
 
-Inside the `/perception_squad/src` folder, create a directorY:
+Inside the `/perception_squad/src` folder, create a directory:
 - `bags` where the test_data folder needs to be copied
 
 After creating the directory, copy the `test_data` folder (or extract)from https://siaroboticsolutions.sharepoint.com/:u:/s/Robot/EZfyh6hzdhhPkoi7R8yrN4IBlX5oab_xKMWEc5FhGorWGA?email=sth.anish%40hotmail.com&e=4%3a5PDsP6&at=9   
@@ -58,7 +58,18 @@ once the bag file is played, the node for calibrating extrinsics start to accumu
 
 ![screen_bag](https://github.com/AnishShr/perception_squad/assets/62991158/4a9e8443-4f26-40da-a384-50c64768df3c)
 
-Once it is complete, you can see something like this in the first terminal.
+Once it is launched, you can see something like this in the terminal.
+
+On the other teminal where the extrinsic calibration is carried out and which outputs the files to the output directory, you should see something like this:   
+
+![screen_ongoing](https://github.com/AnishShr/perception_squad/assets/62991158/f2bc670c-3c04-413b-bdc2-64f81dfef15f)
+   
+
+Once the ICP converges and gives a transformation between the 2 pointclouds, the terminal window will have the following loggers printed:   
+
+![screen_icp_done](https://github.com/AnishShr/perception_squad/assets/62991158/61d647dd-6c27-47be-ae3e-752887504361)
+
+
 
 ###
 Just make sure that the folder structure is like this:
