@@ -69,6 +69,8 @@ class ExtrinsicCalibration : public rclcpp::Node
             depthcam_pc_ = boost::make_shared<pcl::PointCloud<pcl::PointXYZ>>();
             depthcam_pc_downsampled_ = boost::make_shared<pcl::PointCloud<pcl::PointXYZ>>();
 
+            std::cout << "\n";
+
             get_parameter("pointcloud_out_dir", out_directory);
             std::cout << "Pointcloud output directory set to: " << out_directory << std::endl;
 
@@ -359,6 +361,8 @@ int main(int argc, char** argv)
 
         file.close();
     }
+
+    std::cout << "All files written to the pointcloud output dir: " << out_directory << std::endl;
 
     return 0;
 }
