@@ -73,7 +73,7 @@ Just make sure that the folder structure is like this:
 
 Once everything is done, the `/perception_squad/src/perception_task/output` directory will have 5 files: 4 point clouds and one .txt file.   
 
-The 4 output pointclouds would look something like this:   
+The 4 output pointclouds would look something like this, when placed on top of each other:   
 
 ![snapshot00](https://github.com/AnishShr/perception_squad/assets/62991158/ea33333c-7171-4b94-a7da-6f9d6a1142c7)
 
