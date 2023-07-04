@@ -1,4 +1,5 @@
-Relative position of camera: XYZ: 2.86232, 1.08033, -1.15788
-Relative orientation of camera: RPY: 1.45503, -0.0515982, -1.4144
-Distance to floor plane: 0.773821
-Floor Plane Orientation_x, Orientation_y, Orientation_z: -0.0542034 -0.00623754 0.99851
+Assuming tha Lidar is at (0, 0, 0)
+Relative position of Camera (XYZ): 0.237894, -0.166379, -0.208182
+Relative orientation of Camera (RPY): 0.0372109, 0.125219, 0.0780156
+Distance to floor plane (directly under lidar): 0.773821
+Floor plane Orientation: X, Y, Z: -0.0542034, -0.00623754, 0.99851
